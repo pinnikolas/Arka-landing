@@ -181,3 +181,106 @@ img {
   color: #A1A1A1;
   max-width: 67px;
 }
+
+.products {
+  background-color: #EEEEEE;
+  padding: 57px 0 50px 0;
+}
+.products__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.products__header-text {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  color: #011F3A;
+}
+.products__header-button {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.9600000381px;
+  color: #ffffff;
+  background-color: #3D5675;
+  padding: 13px 25px;
+  border-radius: 44px;
+}
+.products__body {
+  margin: 57px 0 46px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2px;
+}
+.products__item {
+  background-color: #ffffff;
+  padding: 3px 25px;
+  max-width: 32.33%;
+}
+.products__item-title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3600000143px;
+  color: #011F3A;
+  padding-top: 24px;
+}
+.products__item-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.products__item-subtitle, .products__item-price {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #777777;
+}
+.products__item-subtitle {
+  max-width: 209px;
+}
+.products__item-price {
+  max-width: 80px;
+}
+.products__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.products__footer-text {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+  color: #A1A1A1;
+}
+.products__footer-button {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.9600000381px;
+  color: #3D5675;
+  padding: 13px 25px;
+  background-color: #ffffff;
+  border-radius: 44px;
+}

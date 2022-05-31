@@ -162,6 +162,7 @@ $MainColor: #011F3A;
 
 .brands {
     padding: 20px 0;
+
     .container {
         display: flex;
         justify-content: space-between;
@@ -180,5 +181,102 @@ $MainColor: #011F3A;
         letter-spacing: 0.6000000238418579px;
         color: #A1A1A1;
         max-width: 67px;
+    }
+}
+
+//products
+
+.products {
+    background-color: #EEEEEE;
+    padding: 57px 0 50px 0;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-text {
+            font-family: $MainFont;
+            font-size: 32px;
+            font-weight: 400;
+            color: $MainColor;
+        }
+
+        &-button {
+            font-family: $MainFont;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1.9600000381469727px;
+            color: #ffffff;
+            background-color: #3D5675;
+            padding: 13px 25px;
+            border-radius: 44px;
+        }
+    }
+
+    &__body {
+        margin: 57px 0 46px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+
+    &__item {
+        background-color: #ffffff;
+        padding: 3px 25px;
+        max-width: 32.33%;
+        &-title {
+            font-family: $MainFont;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 0.36000001430511475px;
+            color: $MainColor;
+            padding-top: 24px;
+        }
+
+        &-description {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-subtitle,
+        &-price {
+            font-family: $MainFont;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #777777;
+        }
+        &-subtitle {
+            max-width: 209px;
+        }
+        &-price {
+            max-width: 80px;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+
+        &-text {
+            font-family: $MainFont;
+            font-size: 15px;
+            font-weight: 700;
+            color: #A1A1A1;
+        }
+
+        &-button {
+            font-family: $MainFont;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1.9600000381469727px;
+            color: #3D5675;
+            padding: 13px 25px;
+            background-color: #ffffff;
+            border-radius: 44px;
+        }
     }
 }
