@@ -54,6 +54,12 @@ img {
   max-width: 100%;
 }
 
+/*Устанавливаем шиирину контейнера*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /*Header*/
 .header {
   display: -webkit-box;
@@ -100,4 +106,50 @@ img {
 }
 .nav__item a:hover {
   border-bottom: 1px solid #011F3A;
+}
+
+/*hero*/
+.hero {
+  background-color: #F2AE4D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 165px 0 205px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.hero__img {
+  top: -68px;
+}
+.hero__text {
+  margin-left: 120px;
+  max-width: 480px;
+}
+.hero__title {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  color: #011F3A;
+}
+.hero__description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #011F3A;
+  max-width: 277px;
+  margin: 33px 0 33px 0;
+}
+.hero__button a {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.9600000381px;
+  color: #ffffff;
+  background-color: #3D5675;
+  text-transform: uppercase;
+  padding: 19px 29px;
+  border-radius: 44px;
 }
