@@ -82,6 +82,7 @@ $MainColor: #011F3A;
             line-height: 18px;
             color: $MainColor;
             text-transform: uppercase;
+            border-bottom: 1px solid transparent;
 
             &:hover {
                 border-bottom: 1px solid $MainColor;
@@ -211,6 +212,7 @@ $MainColor: #011F3A;
             background-color: #3D5675;
             padding: 13px 25px;
             border-radius: 44px;
+            text-transform: uppercase;
         }
     }
 
@@ -225,6 +227,7 @@ $MainColor: #011F3A;
         background-color: #ffffff;
         padding: 3px 25px;
         max-width: 32.33%;
+
         &-title {
             font-family: $MainFont;
             font-size: 18px;
@@ -247,9 +250,11 @@ $MainColor: #011F3A;
             line-height: 24px;
             color: #777777;
         }
+
         &-subtitle {
             max-width: 209px;
         }
+
         &-price {
             max-width: 80px;
         }
@@ -277,6 +282,103 @@ $MainColor: #011F3A;
             padding: 13px 25px;
             background-color: #ffffff;
             border-radius: 44px;
+            text-transform: uppercase;
         }
+    }
+}
+
+//custom
+
+.custom {
+    background-color: #72BDA3;
+    padding: 88px 0;
+    text-align: center;
+
+    &__title {
+        font-family: $MainFont;
+        font-size: 32px;
+        font-weight: 400;
+        color: $MainColor;
+    }
+
+    &__body {
+        margin: 46px 0 75px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        &-title {
+            font-family: $MainFont;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 0.36000001430511475px;
+            color: $MainColor;
+        }
+
+        &-description {
+            color: #3D5675;
+            font-family: $MainFont;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+            max-width: 197px;
+            margin: 0 auto;
+        }
+    }
+
+    &__button {
+        font-family: $MainFont;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1.9600000381469727px;
+        color: #ffffff;
+        background-color: #3D5675;
+        padding: 13px 25px;
+        border-radius: 44px;
+        text-transform: uppercase;
+    }
+}
+
+//advantage
+
+.advantage {
+    padding: 87px 0 141px 0;
+
+    &__title {
+        font-family: $MainFont;
+        font-size: 32px;
+        font-weight: 700;
+        color: $MainColor;
+        margin-bottom: 82px;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        &-title {
+            font-family: $MainFont;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.36000001430511475px;
+            color: $MainColor;
+            margin: 54px 0 12px 0;
+        }
+
+        &-description {
+            font-family: $MainFont;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #A1A1A1;
+            max-width: 246px;
+        }
+    }
+
+    &__item img {
+        margin: 0 auto;
     }
 }

@@ -85,6 +85,7 @@ img {
   line-height: 18px;
   color: #011F3A;
   text-transform: uppercase;
+  border-bottom: 1px solid transparent;
 }
 .header__cart a:hover {
   border-bottom: 1px solid #011F3A;
@@ -212,6 +213,7 @@ img {
   background-color: #3D5675;
   padding: 13px 25px;
   border-radius: 44px;
+  text-transform: uppercase;
 }
 .products__body {
   margin: 57px 0 46px 0;
@@ -283,4 +285,91 @@ img {
   padding: 13px 25px;
   background-color: #ffffff;
   border-radius: 44px;
+  text-transform: uppercase;
+}
+
+.custom {
+  background-color: #72BDA3;
+  padding: 88px 0;
+  text-align: center;
+}
+.custom__title {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  color: #011F3A;
+}
+.custom__body {
+  margin: 46px 0 75px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.custom__item-title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3600000143px;
+  color: #011F3A;
+}
+.custom__item-description {
+  color: #3D5675;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 197px;
+  margin: 0 auto;
+}
+.custom__button {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.9600000381px;
+  color: #ffffff;
+  background-color: #3D5675;
+  padding: 13px 25px;
+  border-radius: 44px;
+  text-transform: uppercase;
+}
+
+.advantage {
+  padding: 87px 0 141px 0;
+}
+.advantage__title {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  color: #011F3A;
+  margin-bottom: 82px;
+}
+.advantage__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.advantage__item-title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.3600000143px;
+  color: #011F3A;
+  margin: 54px 0 12px 0;
+}
+.advantage__item-description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #A1A1A1;
+  max-width: 246px;
+}
+.advantage__item img {
+  margin: 0 auto;
 }
