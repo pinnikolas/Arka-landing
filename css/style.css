@@ -37,6 +37,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: #EEEEEE;
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
@@ -67,7 +68,11 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 21px 24px;
+  padding: 22px 24px 18px;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header__cart {
   display: -webkit-box;
@@ -156,6 +161,7 @@ img {
 
 .brands {
   padding: 20px 0;
+  background-color: #ffffff;
 }
 .brands .container {
   display: -webkit-box;
@@ -372,4 +378,169 @@ img {
 }
 .advantage__item img {
   margin: 0 auto;
+}
+
+.questions {
+  background-color: #FFCA3A;
+  padding: 110px 0 90px 0;
+}
+.questions__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+.questions__item {
+  width: 50%;
+}
+.questions__item:first-child {
+  border-right: 1px solid rgba(161, 161, 161, 0.4);
+}
+.questions__title {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #011F3A;
+  margin-top: 24px;
+}
+.questions__desription {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #3D5675;
+  max-width: 350px;
+  margin: 14px auto 23px;
+}
+.questions__button {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1.9600000381px;
+  color: #3D5675;
+  background-color: #ffffff;
+  border-radius: 44px;
+  padding: 13px 25px;
+  text-transform: uppercase;
+}
+
+.reviews {
+  padding: 88px 57px;
+}
+.reviews__title {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: center;
+  color: #011F3A;
+  margin-bottom: 59px;
+}
+.reviews__brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  padding: 100px 0 45px 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.reviews__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 55px;
+}
+.reviews__item-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.reviews__item {
+  margin: 0 auto;
+}
+.reviews__grade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+.reviews__grade-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.3600000143px;
+  color: #011F3A;
+  padding-left: 4px;
+  margin-bottom: 4px;
+}
+.reviews__item-description {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #011F3A;
+  width: 395px;
+  margin: 63px auto 10px;
+}
+.reviews__item-people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.reviews__item-people-text {
+  padding: 5px 0 5px 20px;
+}
+.reviews__item-people-name {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #011F3A;
+}
+.reviews__item-people-proffesion {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #A1A1A1;
+}
+.reviews__item-people-btn a {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1.9600000381px;
+  color: #3D5675;
+  border-radius: 44px;
+  padding: 13px 25px;
+  background-color: #F2F2F2;
+  text-transform: uppercase;
+  margin-left: 18px;
 }

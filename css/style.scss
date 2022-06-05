@@ -35,6 +35,7 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    background-color: #EEEEEE;
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
@@ -68,7 +69,9 @@ $MainColor: #011F3A;
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 21px 24px;
+    padding: 22px 24px 18px;
+    background-color: #ffffff;
+    align-items: center;
 
     &__cart {
         display: flex;
@@ -163,6 +166,7 @@ $MainColor: #011F3A;
 
 .brands {
     padding: 20px 0;
+    background-color: #ffffff;
 
     .container {
         display: flex;
@@ -382,3 +386,168 @@ $MainColor: #011F3A;
         margin: 0 auto;
     }
 }
+
+//questions
+
+.questions {
+    background-color: #FFCA3A;
+    padding: 110px 0 90px 0;
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    &__item {
+        width: 50%;
+
+        &:first-child {
+            border-right: 1px solid rgba(161, 161, 161, 0.4);
+        }
+    }
+
+    &__title {
+        font-family: $MainFont;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        color: $MainColor;
+        margin-top: 24px;
+    }
+
+    &__desription {
+        font-family: $MainFont;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #3D5675;
+        max-width: 350px;
+        margin: 14px auto 23px;
+    }
+
+    &__button {
+        font-family: $MainFont;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 1.9600000381469727px;
+        color: #3D5675;
+        background-color: #ffffff;
+        border-radius: 44px;
+        padding: 13px 25px;
+        text-transform: uppercase;
+    }
+}
+
+//reviews
+
+.reviews {
+    padding: 88px 57px;
+
+    &__title {
+        font-family: $MainFont;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: center;
+        color: $MainColor;
+        margin-bottom: 59px;
+    }
+
+    &__brands {
+        display: flex;
+        background-color: #ffffff;
+        padding: 100px 0 45px 0;
+        justify-content: space-around;
+    }
+
+    &__body {
+        display: flex;
+        background-color: #ffffff;
+        justify-content: space-between;
+        padding-top: 55px;
+    }
+
+    &__item-img {
+        display: flex;
+    }
+
+    &__item {
+        margin: 0 auto;
+    }
+
+    &__grade {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    &__grade-text {
+        font-family: $MainFont;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.36000001430511475px;
+        color: $MainColor;
+        padding-left: 4px;
+        margin-bottom: 4px;
+    }
+
+    &__item-description {
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $MainColor;
+        width: 395px;
+        margin: 63px auto 10px;
+    }
+
+    &__item-people {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__item-people-text {
+        padding: 5px 0 5px 20px;
+    }
+
+    &__item-people-name {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: $MainColor;
+    }
+
+    &__item-people-proffesion {
+        font-family: Lato;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #A1A1A1;
+    }
+
+    &__item-people-btn a {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 1.9600000381469727px;
+        color: #3D5675;
+        border-radius: 44px;
+        padding: 13px 25px;
+        background-color: #F2F2F2;
+        text-transform: uppercase;
+        margin-left: 18px;
+    }
+}
+
+.container {}
