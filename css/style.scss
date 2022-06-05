@@ -550,4 +550,40 @@ $MainColor: #011F3A;
     }
 }
 
-.container {}
+//get
+
+.get {
+    padding: 120px 0 136px 0;
+
+    &__title {
+        font-family: $MainFont;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+        color: $MainColor;
+    }
+
+    &__body {
+        display: flex;
+        margin-top: 55px;
+        gap: 11px;
+        justify-content: center;
+    }
+
+    &__button {
+        font-family: $MainFont;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1.9600000381469727px;
+        color: #ffffff;
+        background-color: #3D5675;
+        padding: 13px 25px;
+        border-radius: 44px;
+        text-transform: uppercase;
+        &-light {
+            background-color: #ffffff;
+            color: #3D5675;
+        }
+    }
+}

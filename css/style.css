@@ -544,3 +544,40 @@ img {
   text-transform: uppercase;
   margin-left: 18px;
 }
+
+.get {
+  padding: 120px 0 136px 0;
+}
+.get__title {
+  font-family: Roboto;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #011F3A;
+}
+.get__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 55px;
+  gap: 11px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.get__button {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.9600000381px;
+  color: #ffffff;
+  background-color: #3D5675;
+  padding: 13px 25px;
+  border-radius: 44px;
+  text-transform: uppercase;
+}
+.get__button-light {
+  background-color: #ffffff;
+  color: #3D5675;
+}
