@@ -581,9 +581,78 @@ $MainColor: #011F3A;
         padding: 13px 25px;
         border-radius: 44px;
         text-transform: uppercase;
+
         &-light {
             background-color: #ffffff;
             color: #3D5675;
         }
+    }
+}
+
+//footer    
+
+.footer {
+    padding: 60px 0;
+    background-color: #F2F3F4;
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        padding-bottom: 17px;
+        font-family: $MainFont;
+        font-size: 15px;
+        font-weight: 400;
+        color: #3D5675;
+    }
+
+    &__item a {
+        font-family: $MainFont;
+        font-size: 15px;
+        font-weight: 400;
+        color: #3D5675;
+    }
+
+    &__links a {
+        padding-right: 5.5px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        background-color: #ffffff;
+        border: none;
+        outline: none;
+        padding: 9px 182px 9px 18px;
+        margin-bottom: 12px;
+        border-radius: 34px;
+        max-width: 100%;
+
+        &::placeholder {
+            color: #3D5675;
+            opacity: .4;
+            font-family: Roboto;
+            font-size: 15px;
+            font-style: italic;
+        }
+    }
+
+    &__button {
+        font-family: $MainFont;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1.9600000381469727px;
+        color: #ffffff;
+        background-color: #3D5675;
+        padding: 13px 25px;
+        border-radius: 44px;
+        border: none;
+        cursor: pointer;
+        max-width: 50%;
     }
 }
