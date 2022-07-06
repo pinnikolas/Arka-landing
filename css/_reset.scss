@@ -29,10 +29,6 @@ dd {
     margin: 0;
 }
 
-html {
-    
-}
-
 /* Выставляем основные настройки по-умолчанию для body */
 body {
     min-height: 100vh;
@@ -40,6 +36,9 @@ body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     background-color: #EEEEEE;
+    &.lock {
+        overflow: hidden;
+    }
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/

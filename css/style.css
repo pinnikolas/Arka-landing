@@ -39,6 +39,9 @@ body {
   line-height: 1.5;
   background-color: #EEEEEE;
 }
+body.lock {
+  overflow: hidden;
+}
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
 ul[class],
@@ -436,6 +439,11 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.custom__item {
+  margin: 0px auto;
 }
 .custom__item-title {
   font-family: Roboto;
@@ -482,6 +490,13 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media (max-width: 577px) {
+  .advantage__item {
+    margin: 0px auto;
+  }
 }
 .advantage__item-title {
   font-family: Roboto;
@@ -511,16 +526,26 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .questions__item {
-  width: 50%;
+  margin: 0px auto;
 }
-.questions__item:first-child {
-  border-right: 1px solid rgba(161, 161, 161, 0.4);
+@media (max-width: 769px) {
+  .questions__item:first-child {
+    margin-bottom: 50px;
+  }
+}
+.questions__item:nth-child(2) {
+  width: 1px;
+  background-color: rgba(161, 161, 161, 0.4);
+}
+@media (max-width: 769px) {
+  .questions__item:nth-child(2) {
+    display: none;
+  }
 }
 .questions__title {
   font-family: Roboto;
@@ -713,6 +738,8 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .get__button {
   font-family: Roboto;
