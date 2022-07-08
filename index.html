@@ -2,390 +2,410 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <title>Arka</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <title>Arka</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__logo">
-            <img src="img/header/logo.svg" alt="logo">
+  <header class="header">
+    <div class="header__logo">
+      <img src="img/header/logo.svg" alt="logo">
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link">start your design</a></li>
+        <li class="nav__item"><a href="#products" class="nav__link">all products</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">inspiration</a></li>
+        <li class="nav__item"><a href="#custom" class="nav__link">about</a></li>
+      </ul>
+    </nav>
+    <div class="header__cart">
+      <a href="#">account</a>
+      <div class="header__cart-img">
+        <a href="#">
+          <img src="img/header/cart.svg" alt="cart">
+        </a>
+      </div>
+      <div class="header__burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class=" hero__text">
+          <h1 class="hero__title">Fast and easy custom boxes your customers will love</h1>
+          <p class="hero__description">Fastest turnaround. Best prices instantly. Dieline design help
+            available.</p>
+          <div class="hero__button">
+            <a href="#">start your design</a>
+          </div>
         </div>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link">start your design</a></li>
-                <li class="nav__item"><a href="#products" class="nav__link">all products</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">inspiration</a></li>
-                <li class="nav__item"><a href="#custom" class="nav__link">about</a></li>
-            </ul>
-        </nav>
-        <div class="header__cart">
-            <a href="#">account</a>
-            <div class="header__cart-img">
-                <a href="#">
-                    <img src="img/header/cart.svg" alt="cart">
-                </a>
-            </div>
-            <div class="header__burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+        <div class="hero__img">
+          <img src="img/hero/Rectangle(1).svg" alt="image">
         </div>
-    </header>
+      </div>
+    </section>
 
-    <main>
-        <section class="hero" id="hero">
-            <div class="container">
-                <div class=" hero__text">
-                    <h1 class="hero__title">Fast and easy custom boxes your customers will love</h1>
-                    <p class="hero__description">Fastest turnaround. Best prices instantly. Dieline design help
-                        available.</p>
-                    <div class="hero__button">
-                        <a href="#">start your design</a>
-                    </div>
-                </div>
-                <div class="hero__img">
-                    <img src="img/hero/Rectangle(1).svg" alt="image">
-                </div>
-            </div>
-        </section>
-
-        <section class="brands" id="brands">
-            <div class="container">
-                <div class="brands__item">
-                    <img src="img/brands/shopify.svg" alt="shopify">
-                    <p class="brands__text">Shopify Integrated</p>
-                </div>
-                <div class="brands__item">
-                    <img src="img/brands/amazon.svg" alt="amazon">
-                    <p class="brands__text">Amazon Certified</p>
-                </div>
-                <div class="brands__item">
-                    <img src="img/brands/eco-friendly.svg" alt="eco-friendly">
-                    <p class="brands__text">Eco - Friendly</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="products" id="products">
-            <div class="container">
-                <div class="products__header">
-                    <h2 class="products__header-text">Products you can customize</h2>
-                    <a href="#" class="products__header-button">Browse all products</a>
-                </div>
-                <div class="products__body">
-                    <div class="products__item">
-                        <a href="#"><img src="img/products/product-1.svg" alt="product-1"></a>
-                        <p class="products__item-title">Custom Carton Boxes</p>
-                        <div class="products__item-description">
-                            <p class="products__item-subtitle">Create a clean brand presentation with this custom carton
-                                box.</p>
-                            <p class="products__item-price">Starting at: $<span>10.44</span>/unit</p>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <a href="#"><img src="img/products/product-2.svg" alt="product-2"></a>
-                        <p class="products__item-title">Custom Boxes</p>
-                        <div class="products__item-description">
-                            <p class="products__item-subtitle">A stylish and strong corrugated cardboard box.</p>
-                            <p class="products__item-price"></p>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <a href="#"><img src="img/products/product-3.svg" alt="product-3"></a>
-                        <p class="products__item-title">Custom Poly Mailers</p>
-                        <div class="products__item-description">
-                            <p class="products__item-subtitle">A fully custom high quality self sealing poly mailer.</p>
-                            <p class="products__item-price"></p>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <a href="#"><img src="img/products/product-4.svg" alt="product-4"></a>
-                        <p class="products__item-title">Custom Tape</p>
-                        <div class="products__item-description">
-                            <p class="products__item-subtitle">High quality custom tape to seal your shipping boxes
-                                during delivery.</p>
-                            <p class="products__item-price">Starting at: $<span>12.16</span>/unit</p>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <a href="#"><img src="img/products/product-5.svg" alt="product-5"></a>
-                        <p class="products__item-title">Custom Stickers</p>
-                        <div class="products__item-description">
-                            <p class="products__item-subtitle">Add personality to your packages with custom stickers.
-                            </p>
-                            <p class="products__item-price">Starting at: $<span>0.41</span>/unit</p>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <a href="#"><img src="img/products/product-6.svg" alt="product-6"></a>
-                        <p class="products__item-title">Custom Tissue Paper</p>
-                        <div class="products__item-description">
-                            <p class="products__item-subtitle">The perfect addition to branding your package.</p>
-                            <p class="products__item-price">Starting at: $<span>6.54</span>/unit</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="products__footer">
-                    <p class="products__footer-text">Need unbranded stock items?</p>
-                    <a href="#" class="products__footer-button">Shop stock</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="custom" id="custom">
-            <div class="container">
-                <h2 class="custom__title">Fast and easy custom boxes your customers will love</h2>
-                <div class="custom__body">
-                    <div class="custom__item">
-                        <img src="img/custom/box-1.svg" alt="box-1">
-                        <h3 class="custom__item-title">You Order</h3>
-                        <p class="custom__item-description">Design and order boxes in a few clicks.</p>
-                    </div>
-                    <div class="custom__item">
-                        <img src="img/custom/box-2.svg" alt="box-1">
-                        <h3 class="custom__item-title">We Proof</h3>
-                        <p class="custom__item-description">Approve your designs before production.</p>
-                    </div>
-                    <div class="custom__item">
-                        <img src="img/custom/box-3.svg" alt="box-1">
-                        <h3 class="custom__item-title">We Print & Ship</h3>
-                        <p class="custom__item-description">Your order gets printed and shipped with tracking.</p>
-                    </div>
-                </div>
-                <a href="#" class="custom__button">Start your design</a>
-            </div>
-        </section>
-
-        <section class="advantage" id="advantage">
-            <div class="container">
-                <h2 class="advantage__title">The Arka advantage</h2>
-                <div class="advantage__body">
-                    <div class="advantage__item">
-                        <img src="img/advantage/advantage-1.svg" alt="advantage-1">
-                        <h3 class="advantage__item-title">Eco-Friendly Material</h3>
-                        <p class="advantage__item-description">Order as little as 10, giving you the lowest minimums in
-                            the industry at the best prices.</p>
-                    </div>
-                    <div class="advantage__item">
-                        <img src="img/advantage/advantage-2.svg" alt="advantage-2">
-                        <h3 class="advantage__item-title">Full Outside Print</h3>
-                        <p class="advantage__item-description">Design what you want - no extra cost! Prices include 100%
-                            exterior print, change design whenever!</p>
-                    </div>
-                    <div class="advantage__item">
-                        <img src="img/advantage/advantage-3.svg" alt="advantage-3">
-                        <h3 class="advantage__item-title">Proofing</h3>
-                        <p class="advantage__item-description">After you order, our internal designers help make sure
-                            your designs are 100% ready for printing!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="questions" id="questions">
-            <div class="container">
-                <div class="questions__body">
-                    <div class="questions__item">
-                        <img src="img/questions/question-1.svg" alt="image">
-                        <h2 class="questions__title">Couldn't find a size you need?</h2>
-                        <p class="questions__desription">We’ll work directly with you to create a fully branded
-                            packaging system.</p>
-                        <a href="#" class="questions__button">Request a quote</a>
-                    </div>
-                    <div class="questions__item"></div>
-                    <div class="questions__item">
-                        <img src="img/questions/question-2.svg" alt="image">
-                        <h2 class="questions__title">Need a free dieline template?</h2>
-                        <p class="questions__desription">Let us know what size you need and we'll email an Adobe
-                            Illustrator dieline to you within 3-4 business days.</p>
-                        <a href="#" class="questions__button">Request dieline</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- <section class="reviews" id="reviews">
-            <div class="container">
-                <h2 class="reviews__title">Merchants love Arka</h2>
-                <div class="reviews__brands">
-                    <div class="reviews__item">
-                        <img src="img/reviews/google.svg" alt="google">
-                        <div class="reviews__grade">
-                            <div class="reviews__grade-stars">
-                                <img src="img/reviews/full-star.svg" alt="full-star">
-                                <img src="img/reviews/full-star.svg" alt="full-star">
-                                <img src="img/reviews/full-star.svg" alt="full-star">
-                                <img src="img/reviews/full-star.svg" alt="full-star">
-                                <img src="img/reviews/semi-star.svg" alt="full-star">
-                            </div>
-                            <p class="reviews__grade-text">
-                                4.6
-                            </p>
-                        </div>
-                    </div>
-                    <div class="reviews__item">
-                        <img src="img/reviews/shopify.svg" alt="shopify">
-                        <div class="reviews__grade">
-                            <div class="reviews__grade-stars">
-                                <img src="img/reviews/full-star.svg" alt="full-star">
-                                <img src="img/reviews/full-star.svg" alt="full-star">
-                                <img src="img/reviews/full-star.svg" alt="full-star">
-                                <img src="img/reviews/full-star.svg" alt="full-star">
-                                <img src="img/reviews/semi-star.svg" alt="full-star">
-                            </div>
-                            <p class="reviews__grade-text">
-                                4.6
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews__body">
-                    <div class="reviews__item-img">
-                        <div class="reviews__item-img">
-                            <img src="img/reviews/review-1.svg" alt="review-1">
-                        </div>
-                        <div class="reviews__item-img">
-                            <img src="img/reviews/review-2.svg" alt="review-2">
-                        </div>
-                    </div>
-                    <div class="reviews__item">
-                        <p class="reviews__item-description">“Arka’s team is super fast, knowledgeable, and easy to work
-                            with - highly recommended!”</p>
-                        <div class="reviews__item-people">
-                            <img src="img/reviews/review-icon-1.svg" alt="icon">
-                            <div class="reviews__item-people-text">
-                                <p class="reviews__item-people-name">Jesse</p>
-                                <p class="reviews__item-people-proffesion">Subscription Catalyst</p>
-                            </div>
-                            <div class="reviews__item-people-btn">
-                                <a href="#" class="reviews__item-people-btn">Their story</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews__body">
-                    <div class="reviews__item">
-                        <p class="reviews__item-description">“I really like Arka because it’s a really nice box, I’ve
-                            gotten a lot of compliments on&nbsp;it.”</p>
-                        <div class="reviews__item-people">
-                            <img src="img/reviews/review-icon-2.svg" alt="icon">
-                            <div class="reviews__item-people-text">
-                                <p class="reviews__item-people-name">Leslie</p>
-                                <p class="reviews__item-people-proffesion">Burgundy Fox</p>
-                            </div>
-                            <div class="reviews__item-people-btn">
-                                <a href="#" class="reviews__item-people-btn">Their story</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="reviews__item-img">
-                        <div class="reviews__item-img">
-                            <img src="img/reviews/review-3.svg" alt="review-3">
-                        </div>
-                        <div class="reviews__item-img">
-                            <img src="img/reviews/review-4.svg" alt="review-4">
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews__body">
-                    <div class="reviews__item-img">
-                        <div class="reviews__item-img">
-                            <img src="img/reviews/review-5.svg" alt="review-5">
-                        </div>
-                        <div class="reviews__item-img">
-                            <img src="img/reviews/review-6.svg" alt="review-6">
-                        </div>
-                    </div>
-                    <div class="reviews__item">
-                        <p class="reviews__item-description">“I love how easily it was to customize the box, and you
-                            guys were more affordable.”</p>
-                        <div class="reviews__item-people">
-                            <img src="img/reviews/review-icon-3.svg" alt="icon">
-                            <div class="reviews__item-people-text">
-                                <p class="reviews__item-people-name">Anthony</p>
-                                <p class="reviews__item-people-proffesion">Lipstick Junkie</p>
-                            </div>
-                            <div class="reviews__item-people-btn">
-                                <a href="#" class="reviews__item-people-btn">Their story</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <section class="get" id="get">
-            <div class="container">
-                <h2 class="get__title">Let`s get to it</h2>
-                <div class="get__body">
-                    <a href="#" class="get__button">Start your design</a>
-                    <a href="#" class="get__button get__button-light">Browse all products</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- <footer class="footer">
-        <div class="container">
-            <div class="footer__body">
-                <div class="footer__column">
-                    <img src="img/header/logo.svg" alt="logo">
-                </div>
-                <div class="footer__column">
-                    <ul class="footer__list">
-                        <li class="footer__item"><a href="#"> Custom Design</a></li>
-                        <li class="footer__item"><a href="#"> All Products</a></li>
-                        <li class="footer__item"><a href="#"> Inspiration</a></li>
-                        <li class="footer__item"><a href="#"> Sustainability</a></li>
-                        <li class="footer__item"><a href="#"> Affiliate Program</a></li>
-                        <li class="footer__item"><a href="#"> Request Custom Quote</a></li>
-                        <li class="footer__item"><a href="#"> Request Dieline</a></li>
-                    </ul>
-                </div>
-                <div class="footer__column">
-                    <ul class="footer__list">
-                        <li class="footer__item"><a href="#">About Us</a></li>
-                        <li class="footer__item"><a href="#">Blog</a></li>
-                        <li class="footer__item"><a href="#">Partners</a></li>
-                        <li class="footer__item"><a href="#">Contact Us</a></li>
-                        <li class="footer__item"><a href="#">FAQ</a></li>
-                        <li class="footer__item"><a href="#">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="footer__column">
-                    <ul class="footer__list">
-                        <div class="footer__item"><a href="#">Shopify App</a></div>
-                        <div class="footer__item"><a href="#">14 Day Free Shopify Trial</a></div>
-                        <div class="footer__item"><a href="#">BigCommerce</a></div>
-                    </ul>
-                    <div class="footer__links">
-                        <a href="#"><img src="img/footer/facebook.svg" alt="facebook"></a>
-                        <a href="#"><img src="img/footer/twitter.svg" alt="twitter"></a>
-                        <a href="#"><img src="img/footer/instagram.svg" alt="instagram"></a>
-                    </div>
-                </div>
-                <div class="footer__column">
-                    <h3 class="footer__item">Get exclusive offers and tips.</h3>
-                    <form action="index.php" class="footer__form">
-                        <input type="email" placeholder="Your email" class="footer__input">
-                        <input value="Join instantly" type="submit" form="index.php" class="footer__button"></input>
-                    </form>
-                </div>
-            </div>
+    <section class="brands" id="brands">
+      <div class="container">
+        <div class="brands__item">
+          <img src="img/brands/shopify.svg" alt="shopify">
+          <p class="brands__text">Shopify Integrated</p>
         </div>
-    </footer> -->
+        <div class="brands__item">
+          <img src="img/brands/amazon.svg" alt="amazon">
+          <p class="brands__text">Amazon Certified</p>
+        </div>
+        <div class="brands__item">
+          <img src="img/brands/eco-friendly.svg" alt="eco-friendly">
+          <p class="brands__text">Eco - Friendly</p>
+        </div>
+      </div>
+    </section>
 
-    <script src="js/script.js"></script>
+    <section class="products" id="products">
+      <div class="container">
+        <div class="products__header">
+          <h2 class="products__header-text">Products you can customize</h2>
+          <a href="#" class="products__header-button">Browse all products</a>
+        </div>
+        <div class="products__body">
+          <div class="products__item">
+            <a href="#"><img src="img/products/product-1.svg" alt="product-1"></a>
+            <h3 class="products__item-title">Custom Carton Boxes</h3>
+            <div class="products__item-description">
+              <p class="products__item-subtitle">Create a clean brand presentation with this custom carton
+                box.</p>
+              <p class="products__item-price">Starting at: $<span>10.44</span>/unit</p>
+            </div>
+          </div>
+          <div class="products__item">
+            <a href="#"><img src="img/products/product-2.svg" alt="product-2"></a>
+            <h3 class="products__item-title">Custom Boxes</h3>
+            <div class="products__item-description">
+              <p class="products__item-subtitle">A stylish and strong corrugated cardboard box.</p>
+              <p class="products__item-price"></p>
+            </div>
+          </div>
+          <div class="products__item">
+            <a href="#"><img src="img/products/product-3.svg" alt="product-3"></a>
+            <h3 class="products__item-title">Custom Poly Mailers</h3>
+            <div class="products__item-description">
+              <p class="products__item-subtitle">A fully custom high quality self sealing poly mailer.</p>
+              <p class="products__item-price"></p>
+            </div>
+          </div>
+          <div class="products__item">
+            <a href="#"><img src="img/products/product-4.svg" alt="product-4"></a>
+            <h3 class="products__item-title">Custom Tape</h3>
+            <div class="products__item-description">
+              <p class="products__item-subtitle">High quality custom tape to seal your shipping boxes
+                during delivery.</p>
+              <p class="products__item-price">Starting at: $<span>12.16</span>/unit</p>
+            </div>
+          </div>
+          <div class="products__item">
+            <a href="#"><img src="img/products/product-5.svg" alt="product-5"></a>
+            <h3 class="products__item-title">Custom Stickers</h3>
+            <div class="products__item-description">
+              <p class="products__item-subtitle">Add personality to your packages with custom stickers.
+              </p>
+              <p class="products__item-price">Starting at: $<span>0.41</span>/unit</p>
+            </div>
+          </div>
+          <div class="products__item">
+            <a href="#"><img src="img/products/product-6.svg" alt="product-6"></a>
+            <h3 class="products__item-title">Custom Tissue Paper</h3>
+            <div class="products__item-description">
+              <p class="products__item-subtitle">The perfect addition to branding your package.</p>
+              <p class="products__item-price">Starting at: $<span>6.54</span>/unit</p>
+            </div>
+          </div>
+        </div>
+        <div class="products__footer">
+          <p class="products__footer-text">Need unbranded stock items?</p>
+          <a href="#" class="products__footer-button">Shop stock</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="custom" id="custom">
+      <div class="container">
+        <h2 class="custom__title">Fast and easy custom boxes your customers will love</h2>
+        <div class="custom__body">
+          <div class="custom__item">
+            <img src="img/custom/box-1.svg" alt="box-1">
+            <h3 class="custom__item-title">You Order</h3>
+            <p class="custom__item-description">Design and order boxes in a few clicks.</p>
+          </div>
+          <div class="custom__item">
+            <img src="img/custom/box-2.svg" alt="box-1">
+            <h3 class="custom__item-title">We Proof</h3>
+            <p class="custom__item-description">Approve your designs before production.</p>
+          </div>
+          <div class="custom__item">
+            <img src="img/custom/box-3.svg" alt="box-1">
+            <h3 class="custom__item-title">We Print & Ship</h3>
+            <p class="custom__item-description">Your order gets printed and shipped with tracking.</p>
+          </div>
+        </div>
+        <a href="#" class="custom__button">Start your design</a>
+      </div>
+    </section>
+
+    <section class="advantage" id="advantage">
+      <div class="container">
+        <h2 class="advantage__title">The Arka advantage</h2>
+        <div class="advantage__body">
+          <div class="advantage__item">
+            <img src="img/advantage/advantage-1.svg" alt="advantage-1">
+            <h3 class="advantage__item-title">Eco-Friendly Material</h3>
+            <p class="advantage__item-description">Order as little as 10, giving you the lowest minimums in
+              the industry at the best prices.</p>
+          </div>
+          <div class="advantage__item">
+            <img src="img/advantage/advantage-2.svg" alt="advantage-2">
+            <h3 class="advantage__item-title">Full Outside Print</h3>
+            <p class="advantage__item-description">Design what you want - no extra cost! Prices include 100%
+              exterior print, change design whenever!</p>
+          </div>
+          <div class="advantage__item">
+            <img src="img/advantage/advantage-3.svg" alt="advantage-3">
+            <h3 class="advantage__item-title">Proofing</h3>
+            <p class="advantage__item-description">After you order, our internal designers help make sure
+              your designs are 100% ready for printing!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="questions" id="questions">
+      <div class="container">
+        <div class="questions__body">
+          <div class="questions__item">
+            <img src="img/questions/question-1.svg" alt="image">
+            <h2 class="questions__title">Couldn't find a size you need?</h2>
+            <p class="questions__desription">We’ll work directly with you to create a fully branded
+              packaging system.</p>
+            <a href="#" class="questions__button">Request a quote</a>
+          </div>
+          <div class="questions__item"></div>
+          <div class="questions__item">
+            <img src="img/questions/question-2.svg" alt="image">
+            <h2 class="questions__title">Need a free dieline template?</h2>
+            <p class="questions__desription">Let us know what size you need and we'll email an Adobe
+              Illustrator dieline to you within 3-4 business days.</p>
+            <a href="#" class="questions__button">Request dieline</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="container">
+
+        <h2 class="reviews__title">Merchants love Arka</h2>
+
+        <div class="reviews__brands">
+          <div class="reviews__item">
+            <img src="img/reviews/google.svg" alt="google">
+            <div class="reviews__grade">
+              <div class="reviews__grade-stars">
+                <img src="img/reviews/full-star.svg" alt="full-star">
+                <img src="img/reviews/full-star.svg" alt="full-star">
+                <img src="img/reviews/full-star.svg" alt="full-star">
+                <img src="img/reviews/full-star.svg" alt="full-star">
+                <img src="img/reviews/semi-star.svg" alt="full-star">
+              </div>
+              <p class="reviews__grade-text">
+                4.6
+              </p>
+            </div>
+          </div>
+
+          <div class="reviews__item">
+            <img src="img/reviews/shopify.svg" alt="shopify">
+            <div class="reviews__grade">
+              <div class="reviews__grade-stars">
+                <img src="img/reviews/full-star.svg" alt="full-star">
+                <img src="img/reviews/full-star.svg" alt="full-star">
+                <img src="img/reviews/full-star.svg" alt="full-star">
+                <img src="img/reviews/full-star.svg" alt="full-star">
+                <img src="img/reviews/semi-star.svg" alt="full-star">
+              </div>
+              <p class="reviews__grade-text">
+                4.6
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="reviews__body">
+
+          <div class="reviews__item-img">
+            <div class="reviews__item-img">
+              <img src="img/reviews/review-1.svg" alt="review-1">
+            </div>
+            <div class="reviews__item-img">
+              <img src="img/reviews/review-2.svg" alt="review-2">
+            </div>
+          </div>
+
+          <div class="reviews__item">
+            <p class="reviews__item-description">“Arka’s team is super fast, knowledgeable, and easy to work
+              with - highly recommended!”</p>
+            <div class="reviews__item-people">
+              <div class="reviews__item-people-block">
+                <div class="reviews__item-people-iamge">
+                  <img src="img/reviews/review-icon-1.svg" alt="icon">
+                </div>
+                <div class="reviews__item-people-text">
+                  <p class="reviews__item-people-name">Jesse</p>
+                  <p class="reviews__item-people-proffesion">Subscription Catalyst</p>
+                </div>
+              </div>
+              <div class="reviews__item-people-btn">
+                <a href="#" class="reviews__item-people-btn">Their story</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews__body">
+          <div class="reviews__item">
+            <p class="reviews__item-description">“I really like Arka because it’s a really nice box, I’ve
+              gotten a lot of compliments on&nbsp;it.”</p>
+            <div class="reviews__item-people">
+              <div class="reviews__item-people-block">
+                <div class="reviews__item-people-iamge">
+                  <img src="img/reviews/review-icon-2.svg" alt="icon">
+                </div>
+                <div class="reviews__item-people-text">
+                  <p class="reviews__item-people-name">Leslie</p>
+                  <p class="reviews__item-people-proffesion">Burgundy Fox</p>
+                </div>
+              </div>
+              <div class="reviews__item-people-btn">
+                <a href="#" class="reviews__item-people-btn">Their story</a>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__item-img">
+            <div class="reviews__item-img">
+              <img src="img/reviews/review-3.svg" alt="review-3">
+            </div>
+            <div class="reviews__item-img">
+              <img src="img/reviews/review-4.svg" alt="review-4">
+            </div>
+          </div>
+        </div>
+        <div class="reviews__body">
+          <div class="reviews__item-img">
+            <div class="reviews__item-img">
+              <img src="img/reviews/review-5.svg" alt="review-5">
+            </div>
+            <div class="reviews__item-img">
+              <img src="img/reviews/review-6.svg" alt="review-6">
+            </div>
+          </div>
+          <div class="reviews__item">
+            <p class="reviews__item-description">“I love how easily it was to customize the box, and you
+              guys were more affordable.”</p>
+            <div class="reviews__item-people">
+              <div class="reviews__item-people-block">
+                <div class="reviews__item-people-iamge">
+                  <img src="img/reviews/review-icon-3.svg" alt="icon">
+                </div>
+                <div class="reviews__item-people-text">
+                  <p class="reviews__item-people-name">Anthony</p>
+                  <p class="reviews__item-people-proffesion">Lipstick Junkiex</p>
+                </div>
+              </div>
+              <div class="reviews__item-people-btn">
+                <a href="#" class="reviews__item-people-btn">Their story</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get" id="get">
+      <div class="container">
+        <h2 class="get__title">Let`s get to it</h2>
+        <div class="get__body">
+          <a href="#" class="get__button">Start your design</a>
+          <a href="#" class="get__button get__button-light">Browse all products</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__body">
+        <div class="footer__column">
+          <img src="img/header/logo.svg" alt="logo">
+        </div>
+        <div class="footer__column">
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#"> Custom Design</a></li>
+            <li class="footer__item"><a href="#"> All Products</a></li>
+            <li class="footer__item"><a href="#"> Inspiration</a></li>
+            <li class="footer__item"><a href="#"> Sustainability</a></li>
+            <li class="footer__item"><a href="#"> Affiliate Program</a></li>
+            <li class="footer__item"><a href="#"> Request Custom Quote</a></li>
+            <li class="footer__item"><a href="#"> Request Dieline</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#">About Us</a></li>
+            <li class="footer__item"><a href="#">Blog</a></li>
+            <li class="footer__item"><a href="#">Partners</a></li>
+            <li class="footer__item"><a href="#">Contact Us</a></li>
+            <li class="footer__item"><a href="#">FAQ</a></li>
+            <li class="footer__item"><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <ul class="footer__list">
+            <div class="footer__item"><a href="#">Shopify App</a></div>
+            <div class="footer__item"><a href="#">14 Day Free Shopify Trial</a></div>
+            <div class="footer__item"><a href="#">BigCommerce</a></div>
+          </ul>
+          <div class="footer__links">
+            <a href="#"><img src="img/footer/facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="img/footer/twitter.svg" alt="twitter"></a>
+            <a href="#"><img src="img/footer/instagram.svg" alt="instagram"></a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__item">Get exclusive offers and tips.</h3>
+          <form action="index.php" class="footer__form">
+            <input type="email" placeholder="Your email" class="footer__input">
+            <input value="Join instantly" type="submit" form="index.php" class="footer__button"></input>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -2,19 +2,45 @@ $MainFont: Roboto;
 $MainColor: #011F3A;
 
 @mixin breakpoint($point) {
-    @if $point == flg {
-        @media (max-width: 1141px) {@content;}
+  @if $point==flg {
+    @media (max-width: 1141px) {
+      @content;
     }
-    @else if $point == lg {
-        @media (max-width: 993px) {@content;}
+  }
+
+  @else if $point==lg {
+    @media (max-width: 993px) {
+      @content;
     }
-    @else if $point == md {
-        @media (max-width: 769px) {@content;}
+  }
+
+  @else if $point==md {
+    @media (max-width: 769px) {
+      @content;
     }
-    @else if $point == sm {
-        @media (max-width: 577px) {@content;}
+  }
+
+  @else if $point==sm {
+    @media (max-width: 577px) {
+      @content;
     }
-    @else if $point == xs {
-        @media (max-width: 321px) {@content;}
+  }
+
+  @else if $point==xs {
+    @media (max-width: 321px) {
+      @content;
     }
+  }
+}
+
+$maxWidth: 1200;
+$maxWidthContainer: 1200;
+
+@mixin adaptive-value($property,$startSize, $minSize) {
+  $addSize: $startSize - $minSize;
+  
+  #{$property}: $startSize + px;
+  @media (max-width: #{$maxWidthContainer + px}) {
+    #{$property}: calc(#{$minSize + px} + #{$addSize} *((100vw - 320px) / #{$maxWidth - 320}));  
+  }
 }
