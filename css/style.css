@@ -392,6 +392,16 @@ img {
             flex: 0 0 100%;
   }
 }
+.products__item a img {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.products__item a img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 .products__item-title {
   font-family: Roboto;
   font-size: 18px;
@@ -574,7 +584,7 @@ img {
       flex-wrap: wrap;
   margin-top: 82px;
 }
-@media (max-width: 769px) {
+@media (max-width: 993px) {
   .advantage__body {
     margin-top: 0;
   }
@@ -592,7 +602,7 @@ img {
   color: #011F3A;
   margin: 54px 0 12px 0;
 }
-@media (max-width: 769px) {
+@media (max-width: 993px) {
   .advantage__item-title {
     margin-top: 0;
   }

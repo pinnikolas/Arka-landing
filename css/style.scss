@@ -272,6 +272,16 @@
 			flex: 0 0 100%;
 		}
 
+		a {
+			img {
+				transition: transform 0.3s;
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+
+		}
+
 		&-title {
 			font-family: $MainFont;
 			font-size: 18px;
@@ -425,7 +435,7 @@
 		flex-wrap: wrap;
 		margin-top: 82px;
 
-		@include breakpoint (md) {
+		@include breakpoint (lg) {
 			margin-top: 0;
 		}
 	}
@@ -443,7 +453,7 @@
 			color: $MainColor;
 			margin: 54px 0 12px 0;
 
-			@include breakpoint (md) {
+			@include breakpoint (lg) {
 				margin-top: 0;
 			}
 		}
